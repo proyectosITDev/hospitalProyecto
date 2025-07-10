@@ -10,7 +10,7 @@ import { RoomsSVG } from "../../assets/svg/RoomsSVG";
 import { AuditSVG } from "../../assets/svg/AuditSVG";
 import { LogoutSVG } from "../../assets/svg/LogoutSVG";
 
-type IconT = "Home" | "Doctores" | "Pacientes" | "Recepcionistas" | "Citas" | "Hospitalizaciones" | "Insumos Médicos" | "Habitaciones" | "Auditoría" | "Salir"; 
+
 
 const Icons: Record<IconT, () => JSX.Element> = {
   "Home": HomeSVG,
