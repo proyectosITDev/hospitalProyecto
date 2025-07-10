@@ -13,7 +13,7 @@ export const Login = () => {
   return (
     <>
       <title>Ingresar</title>
-      <form onSubmit={handleSubmit} className="flex flex-col bg-white shadow-sm shadow-indigo-600 rounded-lg p-12 gap-1">
+      <form onSubmit={handleSubmit} className="flex flex-col bg-white shadow-sm  rounded-lg p-12 gap-1">
         <label htmlFor="username"> Nombre de usuario:</label>
           <input type="text" id="username" className="border border-stone-300 mb-4 p-2 w-[25ch]" placeholder="NOMBRE_APELLIDO_12345"/>
         <label htmlFor="password"> Contraseña:

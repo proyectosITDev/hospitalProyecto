@@ -9,3 +9,5 @@ type User = {
     bloodType:string,
     role: UserRole,
 }
+
+type IconT = "Home" | "Doctores" | "Pacientes" | "Recepcionistas" | "Citas" | "Hospitalizaciones" | "Insumos Médicos" | "Habitaciones" | "Auditoría" | "Salir"; 
