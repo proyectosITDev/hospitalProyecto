@@ -1,0 +1,32 @@
+PEQUEÑO TUTORIAL PARA CONFIGURAR TODO
+
+INTRODUCCIÓN
+
+Este archivo de texto sirve para introducir y enseñar cómo poder instalar y cómo funciona este repositorio.
+
+- Cómo descargar el repositorio
+
+Se tendrán que correr los siguientes comandos:
+· sudo npm install -g pnpm
+· pnpm install
+· pnpm dev
+
+- Cómo funciona el repositorio
+
+Habrán dos ramas principales: main y dev. Main no debería ser tocada en absoluto y únicamente debería servir como el tutorial y el proyecto
+base. Dev servirá para subir los cambios que se le hagan al proyecto. 
+No se descarta la posibilidad de nuevas ramas en el futuro, o de que cada uno de los colaboradores haga su rama personal.
+
+- Comandos importantes de GitHub para trabajar en equipo
+
+· git log: sirve para revisar los últimos cambios hechos al repositorio.
+
+· git pull: sirve para tomar los últimos cambios hechos al repositorio y actualizar el que se tiene actualmente.
+RECOMENDABLE CORRER ESTE COMANDO ANTES DE CADA GIT PUSH.
+
+· git checkout ${id}: en caso de que haya un cambio que esté mal y sea necesario ir hacia uno estable, sería necesario este comando, además
+del respectivo hash del cambio.
+
+
+
+
