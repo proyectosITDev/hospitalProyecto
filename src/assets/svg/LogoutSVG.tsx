@@ -1,7 +1,19 @@
 export const LogoutSVG = () => {
-  return (<svg width="256" height="1024" viewBox="0 0 256 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="256" height="1024" fill="white"/>
-<rect x="0.5" y="0.5" width="255" height="1023" stroke="black" stroke-opacity="0.2"/>
-</svg>
-);
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M17 16L21 12M21 12L17 8M21 12L7 12M13 16V17C13 18.6569 11.6569 20 10 20H6C4.34315 20 3 18.6569 3 17V7C3 5.34315 4.34315 4 6 4H10C11.6569 4 13 5.34315 13 7V8"
+        stroke="#21272A"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
 };

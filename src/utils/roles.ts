@@ -13,6 +13,7 @@ export const handleRolePermissions = (
         "Insumos Médicos",
         "Habitaciones",
         "Auditoría",
+        "Salir"
       ];
     // case "doctor":
     //   return ["mis pacientes", "mis citas", "hospitalizaciones", "perfil"];
